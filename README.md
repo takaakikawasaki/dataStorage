@@ -4,3 +4,5 @@ Unity gltFastをテストするためのリポジトリ。
 RuntimeGltfSwitchがLibraryを除いたUnity PJです。
 DLした直後のPlayでLibraryの再構築が行われるのでConsoleでエラーが出るかもしれません。
 一度Libraryができれば、２回目以降の実行からは問題はないはずです。
+
+RuntimeGltfSwitchを使うとGitHubのoptions.jsonをLoadしてDropdownのOptionsを表示し、同jsonファイルのURLを使ってDropdownの選択に応じたglb/gltfのLoadを行います。
